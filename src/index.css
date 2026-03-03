@@ -85,6 +85,33 @@ header {
   border-bottom: 1px solid var(--color-border);
 }
 
+.site-intro {
+  margin: 0.75rem 0 1rem;
+  padding: 1rem;
+  border: 1px solid var(--color-border);
+  border-left: 6px solid var(--color-primary);
+  border-radius: 6px;
+  background: var(--color-bg);
+}
+
+.site-intro__eyebrow {
+  margin: 0;
+  font-size: 0.875rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: var(--color-secondary);
+}
+
+.site-intro h2 {
+  margin: 0.4rem 0 0.5rem;
+  font-size: var(--font-size-large);
+}
+
+.site-intro p {
+  margin: 0.35rem 0;
+}
+
 nav ul {
   list-style: none;
   padding: 0;
