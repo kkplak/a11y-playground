@@ -22,20 +22,20 @@ const VideoDemo: React.FC = () => {
       </ul>
       <div>
         <label id="video-label" htmlFor="sample-video" style={{ display: 'block' }}>
-          Sample video (placeholder)
+          Sample video
         </label>
         <video
           id="sample-video"
           aria-labelledby="video-label"
           controls
-          poster="/images/placeholder.png"
+          poster="/images/video-thumb.png"
           style={{ width: '100%', maxWidth: '100%' }}
         >
           {/*
             The src attribute is intentionally left blank. Replace
             '/video.mp4' with your own media file in the public folder.
           */}
-          <source src="/video.mp4" type="video/mp4" />
+          <source src="/landscape.mp4" type="video/mp4" />
           <track
             kind="captions"
             src="/video-captions.vtt"

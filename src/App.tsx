@@ -64,6 +64,21 @@ const AppContent: React.FC = () => {
     <div className="layout-grid">
       <header>
         <h1 id="top">Accessibility Playground</h1>
+        <section className="site-intro" aria-labelledby="site-intro-heading">
+          <p className="site-intro__eyebrow">Demo website</p>
+          <h2 id="site-intro-heading">Web accessibility features for inclusive experiences</h2>
+          <p>
+            This website demonstrates practical web accessibility (a11y) patterns for people with disabilities.
+          </p>
+          <p>
+            It is useful for recruiters, developers, designers, and QA teams who want to evaluate how accessible
+            interfaces help individuals navigate content and interactive elements more easily.
+          </p>
+          <p>
+            Recommended testing: use a screen reader and keyboard-only navigation to experience the accessibility
+            methods shown throughout the demos.
+          </p>
+        </section>
         <nav aria-label="Main navigation">
           <ul>
             {sections.map(({ id, title }) => (
